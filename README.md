@@ -9,7 +9,7 @@ This project includes:
 
 - `api/`: the Node.js API code
   - `Dockerfile.api`: Dockerfile for the API
-  - `app.js`: main API logic
+  - `api.js`: main API logic
 - `k6/`: K6 scripts
   - `test.js`: K6 load testing script for the API
 - `docker-compose.yml`: Docker Compose configuration to run all services (API, InfluxDB, and K6)
